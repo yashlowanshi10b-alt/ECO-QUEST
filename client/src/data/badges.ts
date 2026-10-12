@@ -1,0 +1,58 @@
+import { Badge } from '../types';
+
+export const INITIAL_BADGES: Badge[] = [
+  {
+    id: 'badge-first-mission',
+    name: 'First Step Out',
+    description: 'Stepped outside and completed your very first EcoQuest mission.',
+    iconName: 'Footprints',
+    category: 'starter',
+    requirementText: 'Complete 1 mission',
+    unlockedAt: null,
+  },
+  {
+    id: 'badge-trail-sweeper',
+    name: 'Litter Sweeper',
+    description: 'Cleaned up public spaces and kept microplastics out of natural water systems.',
+    iconName: 'Trash2',
+    category: 'cleanup',
+    requirementText: 'Complete 2 litter cleanup missions',
+    unlockedAt: null,
+  },
+  {
+    id: 'badge-pollinator-ally',
+    name: 'Pollinator Ally',
+    description: 'Documented bees, butterflies, and insects keeping our food systems thriving.',
+    iconName: 'Bug',
+    category: 'biodiversity',
+    requirementText: 'Complete 2 biodiversity survey missions',
+    unlockedAt: null,
+  },
+  {
+    id: 'badge-canopy-scout',
+    name: 'Canopy Scout',
+    description: 'Examined leaves, bark textures, and wild plants to deepen botanical knowledge.',
+    iconName: 'Trees',
+    category: 'plant',
+    requirementText: 'Complete 2 plant identification missions',
+    unlockedAt: null,
+  },
+  {
+    id: 'badge-streak-3',
+    name: '3-Day Grass Toucher',
+    description: 'Logged outdoor missions across 3 consecutive days.',
+    iconName: 'Flame',
+    category: 'streak',
+    requirementText: 'Maintain a 3-day outdoor streak',
+    unlockedAt: null,
+  },
+  {
+    id: 'badge-xp-500',
+    name: 'Eco Ranger',
+    description: 'Accumulated over 500 XP through sustained environmental stewardship.',
+    iconName: 'Award',
+    category: 'impact',
+    requirementText: 'Earn 500 total XP',
+    unlockedAt: null,
+  },
+];

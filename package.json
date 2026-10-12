@@ -1,0 +1,14 @@
+{
+  "name": "ecoquest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EcoQuest - Outdoor AI Challenge for Hacktoberfest",
+  "scripts": {
+    "client:dev": "npm.cmd --prefix client run dev",
+    "client:build": "npm.cmd --prefix client run build",
+    "server:dev": "npm.cmd --prefix server run dev",
+    "server:build": "npm.cmd --prefix server run build",
+    "server:test": "npm.cmd --prefix server test",
+    "test": "npm.cmd --prefix client test && npm.cmd --prefix server test"
+  }
+}
