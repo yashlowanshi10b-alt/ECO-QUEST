@@ -6,7 +6,7 @@ EcoQuest is an open-source AI-powered app that encourages people to explore the 
 $env:Path += ";D:\Node"
 
 # 2. clone repo (or skip if you already have it)
-git clone https://github.com/dotexeYash/Ecoquest.git
+git clone https://github.com/dotexeYash/ECO-QUEST
 cd Ecoquest
 
 # 3. install deps
